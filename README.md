@@ -13,7 +13,6 @@
     <h2>Technology Stack</h2>
     <ul>
         <li><strong>Jetpack Compose:</strong> For building the user interface.</li>
-        <li><strong>SharedPreferences:</strong> For saving and restoring the counter value.</li>
     </ul>
     <h2>Getting Started</h2>
     <h3>Prerequisites</h3>
@@ -22,7 +21,7 @@
         <li>Basic knowledge of Android development and Kotlin</li>
     </ul>
     <h3>Clone the Repository</h3>
-    <pre><code>git clone https://github.com/yourusername/counter-app.gitcd counter-app</code></pre>
+    <pre><code>git clone https://github.com/AkashNavik/Conuter.git</code></pre>
     <h3>Build and Run</h3>
     <ol>
         <li>Open the project in Android Studio.</li>
@@ -39,14 +38,17 @@
     <h2>Application Perview </h2>
     <p>Perview Screen of Rock Paper Scissors Game:</p>
     <ul>
-        <li><h3>Start Screen<h3><br>
-        <img src ="StartScreenRPS.png" width="300" height="650">
+        <li><h3>Splash Screen<h3><br>
+        <img src = "CounterAppPreview/SplachScreen.png" width="300" height="650">
         </li>
-        <li><h3>Play Screen </h3>
-        <img src = "Main.png"width="300" height="650">
+        <li><h3>Main Screen </h3>
+        <img src = "CounterAppPreview/mainScreen.png"width="300" height="650">
         </li>
-        <li><h3>Result Screen </h3>
-          <img src ="last.png" width="300" height="650">
+        <li><h3>Mode Screen </h3>
+          <img src ="CounterAppPreview/mode1.png" width="300" height="650">
+        </li>
+        <li><h3> My Info Screen </h3>
+            <img src ="CounterAppPreview/MyInfo.png" width="300" height = "650">
         </li>
     </ol>
     <h2>Contact</h2>
