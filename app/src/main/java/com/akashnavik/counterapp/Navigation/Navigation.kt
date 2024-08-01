@@ -7,16 +7,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.akashnavik.counterapp.Screeen.mainScreenFinal
 import com.akashnavik.counterapp.Screeen.secondScreen
-import com.akashnavik.counterapp.Screeen.splash.splachScreen
 import com.akashnavik.counterapp.ViewModel.CounterViewModals
 
 @Composable
 fun Navigation(navHostController: NavHostController ) {
     NavHost(navController = navHostController, startDestination =routes.mainScreen ) {
-
-        composable(routes.splashScreen){
-            splachScreen(navHostController)
-        }
 
         composable(routes.mainScreen){
             val viewModals:CounterViewModals  = viewModel()
